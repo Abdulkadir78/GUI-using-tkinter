@@ -280,7 +280,7 @@ class App():
         db.drop_bill()
         db.create_bill()
         self.order_total = 0
-        self.total_price.set(f"Total: {'%.2f' % self.order_total}")
+        self.total_price.set('')
         self.clear_entry()
 # -----------------------Order window end--------------------------
 
